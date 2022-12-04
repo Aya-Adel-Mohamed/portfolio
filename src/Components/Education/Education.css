@@ -47,6 +47,14 @@ color: #63035e !important;
     top:-6%;
     right:-3%;
 }
+@keyframes animated {
+    0%{transform: translateX(-80px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 0.9;}
+}
+@keyframes animate2{
+    0%{transform: translateX(80px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 1;}
+}
 @media screen and (min-width:992px){
     .animate2{
         transform: translateX(0px);
@@ -63,16 +71,7 @@ color: #63035e !important;
         opacity: 1;
     }
 }
-
-@keyframes animated {
-    0%{transform: translateX(-80px);opacity: 0;}
-    100%{transform: translateX(0px);opacity: 0.9;}
-}
-@keyframes animate2{
-    0%{transform: translateX(80px);opacity: 0;}
-    100%{transform: translateX(0px);opacity: 1;}
-}
-@media screen and (min-width:500px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     .bgeducation{
         height: 100%;
     }

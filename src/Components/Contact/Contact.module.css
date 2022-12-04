@@ -57,7 +57,7 @@ color: white!important;
         text-align: center;
     }
 }
-@media screen and (min-width:500px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     .contact{
         height: 100%;
     }

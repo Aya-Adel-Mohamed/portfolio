@@ -19,14 +19,6 @@
     font-size: 40px;
     font-family: 'Gabriela', serif;
 }
-@media screen and (max-width:992px) {
-    .homeContent h1{
-        font-size: 55px;
-    }
-    .homeContent p{
-        font-size: 35px;
-    }
-}
 .portfolioicons{
    width:45px;
    height:45px;
@@ -40,4 +32,12 @@
 }
 .portfolioicons:hover i{
     color: black;
+}
+@media screen and (max-width:992px) {
+    .homeContent h1{
+        font-size: 50px;
+    }
+    .homeContent p{
+        font-size: 30px;
+    }
 }
