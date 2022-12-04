@@ -21,10 +21,10 @@
 }
 @media screen and (max-width:992px) {
     .homeContent h1{
-        font-size: 50px;
+        font-size: 55px;
     }
     .homeContent p{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 .portfolioicons{
