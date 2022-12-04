@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.bgNotFound{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.notfound h1{
+    font-size: 6rem;
+}
+.notfound h3{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.notfound p{
+    font-size: 1rem;
+}
+.colorhome,.colorhome:hover{
+    color:rgb(241, 176, 227);
+    font-weight: 700;
+}
+@media screen and (max-width:992px) {
+    .bgNotFound{
+        height: 100%;
+    }
+}
