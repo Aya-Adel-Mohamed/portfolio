@@ -40,7 +40,7 @@ strong{
     100%{transform: translateY(0px);opacity: 1;}
 }
 
-@media screen and (min-width:500px) and (max-width:992px) {
+@media screen and (max-width:992px) {
     .skillsbg{
         height: 100%;
     }
