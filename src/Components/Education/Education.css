@@ -1,0 +1,78 @@
+.h2-content{
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+.bgeducation{
+    background-image: linear-gradient(rgba(42, 14, 46, 0.8),50%,#000);
+    height:100vh;
+}
+.h2-content::after{
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    left:0%;
+    top:10%;
+    content:"";
+    background-color: #fff;
+}
+.accordion-button{
+color: #63035e !important;
+}
+.bg-item{
+    background-color: #00000050;
+}
+.bg-items{
+    background-image: linear-gradient(#00000050,50%,#3d063a60,rgba(187, 184, 184, 0.178));
+}
+.accordion-item{
+    border:none;
+}
+.accordion-button:focus {
+    border-color:transparent!important;
+    box-shadow: none!important;
+}
+.accordion-body{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.accordion-body strong{
+    color:#e0b5df;
+}
+.contentTraining{
+    border:2.5px dotted #e0b5df;
+    
+}
+.fa-snowflake{
+    top:-6%;
+    right:-3%;
+}
+@keyframes animated {
+    0%{transform: translateX(-80px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 0.9;}
+}
+@keyframes animate2{
+    0%{transform: translateX(80px);opacity: 0;}
+    100%{transform: translateX(0px);opacity: 1;}
+}
+@media screen and (min-width:992px){
+    .animate2{
+        transform: translateX(0px);
+        animation-name: animate2;
+        animation-duration: 2.5s;
+        animation-iteration-count: 1;
+        opacity: 1;
+    }
+    .animate{
+        transform: translateX(0px);
+        animation-name: animated;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        opacity: 1;
+    }
+}
+@media screen and (max-width:992px) {
+    .bgeducation{
+        height: 100%;
+    }
+}
