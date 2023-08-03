@@ -114,8 +114,8 @@ top: 0;
     }
     @media screen  and (min-width:1300px){
         .protfolio-content-img img{
-            max-height: 250px;
-            min-height: 250px;
+            max-height: 230px;
+            min-height: 230px;
             }
         }
         @media screen  and (min-width:1000px) and (max-width:1300px){

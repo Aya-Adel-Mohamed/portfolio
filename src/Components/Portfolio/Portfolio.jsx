@@ -21,7 +21,9 @@ import noxe from '../../assets/imgs/noxe.jpg';
 import StarBorder from '../StarBorder/StarBorder';
 import notes from '../../assets/imgs/notes.png';
 import memory from '../../assets/imgs/memory game.png';
-import pacman from '../../assets/imgs/pacman.png'
+import pacman from '../../assets/imgs/pacman.png';
+import ecommerce from '../../assets/imgs/ecommerce.png';
+import quiz from '../../assets/imgs/quiz.png'
 
 export default function Portfolio() {
   const [loading,setLoading]=useState(false);
@@ -32,10 +34,12 @@ export default function Portfolio() {
     },2000);
   },[]);
   const projects = [
+    {title:'E-Commerce', image: ecommerce,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:'https://aya-adel-mohamed.github.io/E-Commerce/',Github:'https://github.com/Aya-Adel-Mohamed/E-Commerce',parg:'This project Based on React Js, Joi Vallidation (The most powerful schema description language and data validator for javascript), Sweet Alert. in this project we can add, remove, decrease and increase Quantity to the cart and get checkout of the products '},
     {title:'Notes App', image: notes,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:'https://aya-adel-mohamed.github.io/Notes-APP/',Github:'https://github.com/Aya-Adel-Mohamed/Notes-APP',parg:'This project Based on React Js, Joi Vallidation (The most powerful schema description language and data validator for javascript), Sweet Alert. in this project we can add, update and delete note '},
     {title:'Game Over', image: game,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:'https://aya-adel-mohamed.github.io/Game-Over/',Github:'https://github.com/Aya-Adel-Mohamed/Game-Over',parg:'This project Based on React Js, Joi Vallidation (The most powerful schema description language and data validator for javascript), and RapidAPI free-to-play-games.'},
     {title:'Noxe Movies', image: noxe,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:'https://aya-adel-mohamed.github.io/React-Movies/',Github:'https://github.com/Aya-Adel-Mohamed/React-Movies',parg:'This project Based on React Js, Joi Vallidation (The most powerful schema description language and data validator for javascript), and themoviedb api.'},
     {title:'Start React', image: start,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:' https://aya-adel-mohamed.github.io/start-react-theme/',Github:'https://github.com/Aya-Adel-Mohamed/start-react-theme',parg:'This project Based on React Js.'},
+    {title:'Quiz App', image: quiz,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'OPP',liveDemo:'https://aya-adel-mohamed.github.io/Quiz-App/',Github:'https://github.com/Aya-Adel-Mohamed/Quiz-App',parg:'This project Based on HTML, CSS3, Bootstrap5, JavaScript, OPP, and Open trivia database API.'},
     {title:'PacMan Game', image: pacman, skill_1:'HTML',skill_2:'CSS3',skill_3:'Canvas',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/PacMan-Game/',Github:'https://github.com/Aya-Adel-Mohamed/PacMan-Game',parg:'This Game Based on HTML5, CSS3, Canvas, JavaScript and Jquery.'},
     {title:'Memory Game', image: memory, skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/MemoryGame/',Github:'https://github.com/Aya-Adel-Mohamed/MemoryGame',parg:'This Game Based on HTML5, CSS3, Bootstrap5, JavaScript and Jquery.'},
     {title:'Movies-Api Site', image: movie,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/Movie-Api/',Github:'https://github.com/Aya-Adel-Mohamed/Movie-Api',parg:'This project Based on HTML, CSS3, Bootstrap5, Regular Expression, JavaScript, jQuery, and themoviedb API, the application allows for one to find the latest trending and upcoming movies using search or get movies by word.'},
