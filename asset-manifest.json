@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d44f4579.css",
-    "main.js": "/portfolio/static/js/main.ec16b2e3.js",
+    "main.css": "/portfolio/static/css/main.238b797f.css",
+    "main.js": "/portfolio/static/js/main.53c4b1c8.js",
     "static/media/pexels-frank-cone-3573555.jpg": "/portfolio/static/media/pexels-frank-cone-3573555.07c13bafa986f7c56aab.jpg",
     "static/media/DANIELS.png": "/portfolio/static/media/DANIELS.779b5563f200a4b69998.png",
     "static/media/pacman.png": "/portfolio/static/media/pacman.bcea5aaff4e2daebc7e5.png",
     "static/media/bakery.png": "/portfolio/static/media/bakery.72c0cb838b7eda28a0a6.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.eed9e583d5ac155a04db.png",
     "static/media/meals.png": "/portfolio/static/media/meals.72ba48cb36c3f5780fee.png",
     "static/media/movie.png": "/portfolio/static/media/movie.c2b8b09fd6d51552f20a.png",
     "static/media/simone.png": "/portfolio/static/media/simone.3b94bba337cdda587b57.png",
     "static/media/notes.png": "/portfolio/static/media/notes.d83b7061c0e3922d286b.png",
     "static/media/memory game.png": "/portfolio/static/media/memory game.94aca15f559553f39080.png",
+    "static/media/quiz.png": "/portfolio/static/media/quiz.711e6b01d7fc5faf3c7a.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/wheather.png": "/portfolio/static/media/wheather.68b24ba1954e90337cb2.png",
     "static/media/fokir.png": "/portfolio/static/media/fokir.6ff280b7f5ff6af99c4a.png",
@@ -33,11 +35,11 @@
     "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
-    "main.d44f4579.css.map": "/portfolio/static/css/main.d44f4579.css.map",
-    "main.ec16b2e3.js.map": "/portfolio/static/js/main.ec16b2e3.js.map"
+    "main.238b797f.css.map": "/portfolio/static/css/main.238b797f.css.map",
+    "main.53c4b1c8.js.map": "/portfolio/static/js/main.53c4b1c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44f4579.css",
-    "static/js/main.ec16b2e3.js"
+    "static/css/main.238b797f.css",
+    "static/js/main.53c4b1c8.js"
   ]
 }
