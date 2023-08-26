@@ -23,7 +23,7 @@ export default function AboutMe() {
       <div className="row align-items-center gy-5">
         <div className="col-lg-4 px-5 pt-5 pt-lg-0">
           <div className="content-about text-center d-flex justify-content-center">
-            <a href="https://drive.google.com/file/d/1r_25jJOa_CoxlnmF8KUlj_h2XYsPtNRr/view?usp=sharing"rel="noreferrer" target={'_blank'}className='text-decoration-none'>
+            <a href="https://drive.google.com/file/d/1r_25jJOa_CoxlnmF8KUlj_h2XYsPtNRr/view?usp=sharing" rel="noreferrer" target={'_blank'}className='text-decoration-none'>
           <div className={`${styles.aboutitem} position-relative`}>
           <i className='text-white me-2 fa-3x fa fa-download d-block fa-fade'></i>
             <h4 className='fs-6 fw-semibold text-white mt-2'>DownLoad CV</h4>

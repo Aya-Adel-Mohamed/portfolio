@@ -34,7 +34,7 @@ export default function Projects({data,id}) {
         </div>
     </div>
  </div>
- <div className="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby='staticBackdropLabel' aria-hidden="true">
+ <div className="modal fade " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby='staticBackdropLabel' aria-hidden="true">
   <div className="modal-dialog modal-lg" role="document">
     <div className="modal-content position-relative bg-project mb-5 pb-1">
       <button type="button" data-bs-dismiss="modal" aria-label='Close' className='border-0 bg-transparent buttonClose'>

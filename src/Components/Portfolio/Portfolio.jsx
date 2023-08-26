@@ -20,8 +20,6 @@ import game from '../../assets/imgs/game.jpeg';
 import noxe from '../../assets/imgs/noxe.jpg';
 import StarBorder from '../StarBorder/StarBorder';
 import notes from '../../assets/imgs/notes.png';
-import memory from '../../assets/imgs/memory game.png';
-import pacman from '../../assets/imgs/pacman.png';
 import ecommerce from '../../assets/imgs/ecommerce.png';
 import quiz from '../../assets/imgs/quiz.png'
 
@@ -40,8 +38,6 @@ export default function Portfolio() {
     {title:'Noxe Movies', image: noxe,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:'https://aya-adel-mohamed.github.io/React-Movies/',Github:'https://github.com/Aya-Adel-Mohamed/React-Movies',parg:'This project Based on React Js, Joi Vallidation (The most powerful schema description language and data validator for javascript), and themoviedb api.'},
     {title:'Start React', image: start,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'React JS',liveDemo:' https://aya-adel-mohamed.github.io/start-react-theme/',Github:'https://github.com/Aya-Adel-Mohamed/start-react-theme',parg:'This project Based on React Js.'},
     {title:'Quiz App', image: quiz,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'OPP',liveDemo:'https://aya-adel-mohamed.github.io/Quiz-App/',Github:'https://github.com/Aya-Adel-Mohamed/Quiz-App',parg:'This project Based on HTML, CSS3, Bootstrap5, JavaScript, OPP, and Open trivia database API.'},
-    {title:'PacMan Game', image: pacman, skill_1:'HTML',skill_2:'CSS3',skill_3:'Canvas',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/PacMan-Game/',Github:'https://github.com/Aya-Adel-Mohamed/PacMan-Game',parg:'This Game Based on HTML5, CSS3, Canvas, JavaScript and Jquery.'},
-    {title:'Memory Game', image: memory, skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/MemoryGame/',Github:'https://github.com/Aya-Adel-Mohamed/MemoryGame',parg:'This Game Based on HTML5, CSS3, Bootstrap5, JavaScript and Jquery.'},
     {title:'Movies-Api Site', image: movie,skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/Movie-Api/',Github:'https://github.com/Aya-Adel-Mohamed/Movie-Api',parg:'This project Based on HTML, CSS3, Bootstrap5, Regular Expression, JavaScript, jQuery, and themoviedb API, the application allows for one to find the latest trending and upcoming movies using search or get movies by word.'},
     {title:'Meals-Api Site', image: meals, skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',skill_5:'JQUERY',liveDemo:'https://aya-adel-mohamed.github.io/meals-app-api/',Github:'https://github.com/Aya-Adel-Mohamed/meals-app-api',parg:'This project Based on HTML, CSS3, Bootstrap5, Regular Expression, JavaScript, jQuery, and Themealdb API, the application allows for one to view all meals, search for a meal based on categories, Area, and view all the ingredients used to prepare the meal.'},
     {title:'wheather Site', image: wheather, skill_1:'HTML5',skill_2:'CSS3',skill_3:'BOOTSTRAP5',skill_4:'JAVASCRIPT',liveDemo:'https://aya-adel-mohamed.github.io/Weather-App/',Github:'https://github.com/Aya-Adel-Mohamed/Weather-App',parg:'A simple HTML, CSS3, Bootstrap5, and JavaScript application to display weather of any location, forecast data such as minimum and maximum temperature, wind speed and so on.'},

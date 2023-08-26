@@ -39,22 +39,22 @@ export default function Home() {
         <div className="social-icons d-flex justify-content-center">
           <div className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`}>
             <button className='btn'>
-            <a href="mailto:aya90318@gmail.com"className='text-white'><i className='fa fa-envelope fs-6'></i></a>
+            <a href="mailto:aya90318@gmail.com" className='text-white'><i className='fa fa-envelope fs-6'></i></a>
             </button>
             </div>
             <div className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`}>
             <button className='btn'>
-            <a href="https://github.com/Aya-Adel-Mohamed" className='text-white'target={'_blank'} rel="noreferrer"><i className='fab fa-github fs-6'></i></a>
+            <a href="https://github.com/Aya-Adel-Mohamed" className='text-white' target={'_blank'} rel="noreferrer"><i className='fab fa-github fs-6'></i></a>
             </button>
             </div>
             <div className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`}>
             <button className='btn'>
-            <a href="https://www.linkedin.com/in/aya-adel-11476623b" className='text-white'target={'_blank'} rel="noreferrer"><i className='fab fa-linkedin fs-6'></i></a>
+            <a href="https://www.linkedin.com/in/aya-adel-11476623b" className='text-white' target={'_blank'} rel="noreferrer"><i className='fab fa-linkedin fs-6'></i></a>
             </button>
             </div>
             <div className={`${styles.portfolioicons} d-flex align-items-center justify-content-center`}>
               <button className='btn'>
-            <a href="https://www.facebook.com/aya.adel.18062"className='text-white' target={'_blank'} rel="noreferrer"><i className='fab fa-facebook fs-6'></i></a>
+            <a href="https://www.facebook.com/aya.adel.18062" className='text-white' target={'_blank'} rel="noreferrer"><i className='fab fa-facebook fs-6'></i></a>
             </button>
             </div>
           </div>
